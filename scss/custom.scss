@@ -77,8 +77,9 @@ footer {
   justify-content: space-evenly;
 }
 
-.card-title.contact {
+.card-title {
   flex-basis: 100%;
+  text-align: center;
 }
 
 .navbar {
@@ -132,4 +133,18 @@ details > ul {
 
 .subul {
   background-color: lightgoldenrodyellow;
+}
+
+.card-right {
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-body.right {
+  flex: 1;
+}
+
+.row {
+  background-color: lightgray;
 }
