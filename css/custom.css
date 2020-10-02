@@ -9973,4 +9973,41 @@ section {
   scroll-padding-top: 64px;
 }
 
+details > summary {
+  width: 25em;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px #111;
+  text-align: center;
+}
+
+details > ul {
+  width: 25em;
+  list-style-type: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 4px #111;
+}
+
+.dots {
+  list-style-type: disc;
+}
+
+.odd {
+  background-color: lightgrey;
+}
+
+.even {
+  background-color: burlywood;
+}
+
+.subsummary {
+  background-color: lightcyan;
+}
+
+.subul {
+  background-color: lightgoldenrodyellow;
+}
+
 /*# sourceMappingURL=custom.css.map */
