@@ -77,8 +77,9 @@ footer {
   justify-content: space-evenly;
 }
 
-.card-title.contact {
+.card-title {
   flex-basis: 100%;
+  text-align: center;
 }
 
 .navbar {
@@ -92,7 +93,7 @@ section {
 }
 
 details > summary {
-  width: 25em;
+  max-width: 25em;
   border: 1px solid black;
   border-radius: 20px;
   box-shadow: 2px 2px 4px #111;
@@ -105,7 +106,7 @@ details > summary::-webkit-details-marker {
 }
 
 details > ul {
-  width: 25em;
+  max-width: 25em;
   list-style-type: none;
   border: 1px solid black;
   border-radius: 20px;
@@ -132,4 +133,18 @@ details > ul {
 
 .subul {
   background-color: lightgoldenrodyellow;
+}
+
+.card-right {
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-body.right {
+  flex: 1;
+}
+
+.row {
+  background-color: lightgray;
 }
