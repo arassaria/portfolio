@@ -10029,7 +10029,10 @@ details > ul {
 
 .grey-background {
   background-color: lightgray;
-  padding: 1rem 1rem 1rem 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 0rem;
 }
 
 /*# sourceMappingURL=custom.css.map */
