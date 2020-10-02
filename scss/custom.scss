@@ -1,8 +1,8 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: black;
-$body-color: white;
-$primary: hotpink;
+$body-bg: #666;
+$body-color: black;
+$primary: limegreen;
 $font-family-base: Arial;
 
 // Include all Bootstrap
@@ -16,4 +16,32 @@ body {
 
 .card {
   color: black;
+}
+
+.card.odd {
+  background-color: burlywood;
+}
+
+.card.even {
+  background-color: lightgrey;
+}
+
+.jumbotron {
+  background-color: lightgrey;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-4 {
+  flex-basis: 100%;
+}
+
+.jumbotron-image {
+  width: 10rem;
+  flex-basis: 10rem;
+}
+
+.lead {
+  flex: 1;
+  align-self: center;
 }
