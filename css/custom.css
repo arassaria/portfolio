@@ -61,7 +61,7 @@ body {
   line-height: 1.5;
   color: black;
   text-align: left;
-  background-color: #666;
+  background-color: #888;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -472,7 +472,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #666;
+  background-color: #888;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -3700,13 +3700,13 @@ input[type=button].btn-block {
   outline: none;
 }
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #666, 0 0 0 0.2rem rgba(0, 0, 255, 0.25);
+  box-shadow: 0 0 0 1px #888, 0 0 0 0.2rem rgba(0, 0, 255, 0.25);
 }
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #666, 0 0 0 0.2rem rgba(0, 0, 255, 0.25);
+  box-shadow: 0 0 0 1px #888, 0 0 0 0.2rem rgba(0, 0, 255, 0.25);
 }
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #666, 0 0 0 0.2rem rgba(0, 0, 255, 0.25);
+  box-shadow: 0 0 0 1px #888, 0 0 0 0.2rem rgba(0, 0, 255, 0.25);
 }
 .custom-range::-moz-focus-outer {
   border: 0;
@@ -3874,8 +3874,8 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #666;
-  border-color: #dee2e6 #dee2e6 #666;
+  background-color: #888;
+  border-color: #dee2e6 #dee2e6 #888;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -9901,6 +9901,11 @@ body {
   color: black;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0px;
 }
 
 .card.odd {
@@ -9919,6 +9924,7 @@ body {
 
 .display-4 {
   flex-basis: 100%;
+  font-style: italic;
 }
 
 .jumbotron-image {
@@ -9937,6 +9943,27 @@ nav {
 
 footer {
   text-align: center;
+}
+
+.card-img {
+  max-width: 64px;
+  flex: 1 auto;
+  align-self: center;
+}
+
+.card.contact {
+  background-color: burlywood;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-title.contact {
+  flex-basis: 100%;
+}
+
+.navbar {
+  justify-content: space-evenly;
 }
 
 /*# sourceMappingURL=custom.css.map */

@@ -1,6 +1,6 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: #666;
+$body-bg: #888;
 $body-color: black;
 $primary: blue;
 $secondary: burlywood;
@@ -19,6 +19,11 @@ body {
   color: black;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0px;
 }
 
 .card.odd {
@@ -37,6 +42,7 @@ body {
 
 .display-4 {
   flex-basis: 100%;
+  font-style: italic;
 }
 
 .jumbotron-image {
@@ -55,4 +61,25 @@ nav {
 
 footer {
   text-align: center;
+}
+
+.card-img {
+  max-width: 64px;
+  flex: 1 auto;
+  align-self: center;
+}
+
+.card.contact {
+  background-color: burlywood;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-title.contact {
+  flex-basis: 100%;
+}
+
+.navbar {
+  justify-content: space-evenly;
 }
