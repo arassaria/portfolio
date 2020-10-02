@@ -9979,6 +9979,11 @@ details > summary {
   border-radius: 20px;
   box-shadow: 2px 2px 4px #111;
   text-align: center;
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
 }
 
 details > ul {
@@ -9996,6 +10001,7 @@ details > ul {
 
 .odd {
   background-color: lightgrey;
+  list-style: none;
 }
 
 .even {
