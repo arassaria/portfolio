@@ -9974,7 +9974,7 @@ section {
 }
 
 details > summary {
-  width: 25em;
+  max-width: 25em;
   border: 1px solid black;
   border-radius: 20px;
   box-shadow: 2px 2px 4px #111;
@@ -9987,7 +9987,7 @@ details > summary::-webkit-details-marker {
 }
 
 details > ul {
-  width: 25em;
+  max-width: 25em;
   list-style-type: none;
   border: 1px solid black;
   border-radius: 20px;
