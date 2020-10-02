@@ -9894,13 +9894,13 @@ h3 {
   }
 }
 body {
-  margin: 20px;
+  margin: 0px;
 }
 
 .card {
   color: black;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
   padding-top: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -9920,6 +9920,7 @@ body {
   background-color: lightgrey;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 0rem;
 }
 
 .display-4 {
@@ -9964,6 +9965,12 @@ footer {
 
 .navbar {
   justify-content: space-evenly;
+}
+
+section {
+  scroll-snap-type: initial;
+  scroll-margin-top: 64px;
+  scroll-padding-top: 64px;
 }
 
 /*# sourceMappingURL=custom.css.map */
