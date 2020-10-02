@@ -9899,6 +9899,8 @@ body {
 
 .card {
   color: black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .card.odd {
@@ -9927,6 +9929,14 @@ body {
 .lead {
   flex: 1;
   align-self: center;
+}
+
+nav {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
 }
 
 /*# sourceMappingURL=custom.css.map */
