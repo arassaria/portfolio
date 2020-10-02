@@ -2,7 +2,8 @@
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 $body-bg: #666;
 $body-color: black;
-$primary: limegreen;
+$primary: blue;
+$secondary: burlywood;
 $font-family-base: Arial;
 
 // Include all Bootstrap
@@ -16,6 +17,8 @@ body {
 
 .card {
   color: black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .card.odd {
@@ -44,4 +47,12 @@ body {
 .lead {
   flex: 1;
   align-self: center;
+}
+
+nav {
+  text-align: right;
+}
+
+footer {
+  text-align: center;
 }
