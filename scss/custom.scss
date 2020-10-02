@@ -1,6 +1,6 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: #666;
+$body-bg: #888;
 $body-color: black;
 $primary: blue;
 $secondary: burlywood;
@@ -12,13 +12,18 @@ $font-family-base: Arial;
 // Add you custom CSS
 
 body {
-  margin: 20px;
+  margin: 0px;
 }
 
 .card {
   color: black;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0px;
 }
 
 .card.odd {
@@ -33,10 +38,12 @@ body {
   background-color: lightgrey;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 0rem;
 }
 
 .display-4 {
   flex-basis: 100%;
+  font-style: italic;
 }
 
 .jumbotron-image {
@@ -55,4 +62,74 @@ nav {
 
 footer {
   text-align: center;
+}
+
+.card-img {
+  max-width: 64px;
+  flex: 1 auto;
+  align-self: center;
+}
+
+.card.contact {
+  background-color: burlywood;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-title.contact {
+  flex-basis: 100%;
+}
+
+.navbar {
+  justify-content: space-evenly;
+}
+
+section {
+  scroll-snap-type: initial;
+  scroll-margin-top: 64px;
+  scroll-padding-top: 64px;
+}
+
+details > summary {
+  width: 25em;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px #111;
+  text-align: center;
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > ul {
+  width: 25em;
+  list-style-type: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 2px 2px 4px #111;
+}
+
+.dots {
+  list-style-type: disc;
+}
+
+.odd {
+  background-color: lightgrey;
+  list-style: none;
+}
+
+.even {
+  background-color: burlywood;
+}
+
+.subsummary {
+  background-color: lightcyan;
+}
+
+.subul {
+  background-color: lightgoldenrodyellow;
 }

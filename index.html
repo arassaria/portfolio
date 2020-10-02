@@ -15,9 +15,14 @@
     <title>Dominique Kolbe</title>
   </head>
   <body>
-    <nav>
-      <a href="#about_me" class="btn btn-secondary">Über mich</a> |
-      <a href="#bildung" class="btn btn-secondary">Werdegang</a> |
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+      <img
+        src="images/cool-dog.png"
+        alt="Cooler-Hund"
+        style="max-height: 3rem; max-width: 3rem; flex: 1"
+      />
+      <a href="#about_me" class="btn btn-secondary">Über mich</a>
+      <a href="#bildung" class="btn btn-secondary">Werdegang</a>
       <a href="#contact" class="btn btn-secondary">Kontakt</a>
     </nav>
     <hr />
@@ -27,7 +32,9 @@
         Hello there, mein Name ist Dominique Kolbe und hier erfahrt ihr mehr
         über mich.
       </p>
-      <img src="images/foto.jpeg" alt="Mein Gesicht" class="jumbotron-image" />
+      <a href="#about_me"
+        ><img src="images/foto.jpeg" alt="Mein Gesicht" class="jumbotron-image"
+      /></a>
     </div>
     <section id="about_me">
       <card class="card odd">
@@ -36,11 +43,12 @@
           <ul>
             <li>
               <details>
-                <summary>Hobbies</summary>
-                <ul>
+                <summary class="odd">Hobbies</summary>
+                <ul class="dots">
                   <li>Coden</li>
                   <li>eSports</li>
-                  <li>Musik</li>
+                  <li>Musik(schreiben, spielen, aufnehmen)</li>
+                  <li>Video-Bearbeitung</li>
                 </ul>
               </details>
             </li>
@@ -57,7 +65,7 @@
         <h3 class="card-title">Werdegang</h3>
         <div class="card-body">
           <details>
-            <summary>Grundschule</summary>
+            <summary class="even">Grundschule</summary>
             <ul>
               <li>2001-2005</li>
               <li>Grundschule Marienrachdorf</li>
@@ -66,7 +74,7 @@
             </ul>
           </details>
           <details>
-            <summary>Gymnasium</summary>
+            <summary class="even">Gymnasium</summary>
             <ul>
               <li>2005-2015</li>
               <li>Abschluss: Abitur</li>
@@ -76,13 +84,13 @@
             </ul>
           </details>
           <details>
-            <summary>Freiwilliges Soziales Jahr</summary>
+            <summary class="even">Freiwilliges Soziales Jahr</summary>
             <ul>
               <li>08/2015-07/2016</li>
               <li>
                 <details>
-                  <summary>Träger</summary>
-                  <ul>
+                  <summary class="subsummary">Träger</summary>
+                  <ul class="subul">
                     <li>Diakonie Rheinland-Westfalen-Lippe</li>
                     <li>Lenaustraße 41</li>
                     <li>40470 Düsseldorf</li>
@@ -91,8 +99,8 @@
               </li>
               <li>
                 <details>
-                  <summary>Arbeitsplatz</summary>
-                  <ul>
+                  <summary class="subsummary">Arbeitsplatz</summary>
+                  <ul class="subul">
                     <li>Martin-Butzer-Gymnasium Dierdorf</li>
                     <li>Gymnasialstraße 10</li>
                     <li>56269 Dierdorf</li>
@@ -102,7 +110,7 @@
             </ul>
           </details>
           <details>
-            <summary>Studium</summary>
+            <summary class="even">Studium</summary>
             <ul>
               <li>10/2016-05/2017</li>
               <li>Mathematik und Physik für Gymnasial-Lehramt</li>
@@ -114,7 +122,7 @@
             </ul>
           </details>
           <details>
-            <summary>Veranstaltungstechnik-Ausbildung</summary>
+            <summary class="even">Veranstaltungstechnik-Ausbildung</summary>
             <ul>
               <li>11/2017-07/2020</li>
               <li>Abschluss: Fachkraft für Veranstaltungstechnik</li>
@@ -124,7 +132,7 @@
             </ul>
           </details>
           <details>
-            <summary>Tontechnik-Fernstudium</summary>
+            <summary class="even">Tontechnik-Fernstudium</summary>
             <ul>
               <li>06/2017-06/2020</li>
               <li>Abschluss: Audio Engineering Diploma</li>
@@ -138,7 +146,7 @@
             </ul>
           </details>
           <details>
-            <summary>Web Development Bootcamp</summary>
+            <summary class="even">Web Development Bootcamp</summary>
             <ul>
               <li>09/2020-12/2020</li>
               <li>neuefische GmbH</li>
@@ -150,15 +158,17 @@
       </card>
     </section>
     <section id="contact">
-      <card class="card odd">
-        <h3 class="card-title">Kontakt</h3>
-        <ul>
-          <li>
-            <a href="https://www.github.com/domko95"
-              ><img src="images/github.png" alt="Github"
-            /></a>
-          </li>
-        </ul>
+      <card class="card contact">
+        <h3 class="card-title contact">Kontakt</h3>
+        <a href="https://www.github.com/domko95"
+          ><img src="images/github.png" alt="Github" class="card-img"
+        /></a>
+        <a href="https://www.linkedin.com/in/dominique-k-420a511b5/"
+          ><img src="images/linkedin.png" alt="LinkedIn" class="card-img"
+        /></a>
+        <a href="https://www.youtube.com/user/Domko95"
+          ><img src="images/youtube.png" alt="YouTube" class="card-img"
+        /></a>
       </card>
     </section>
     <footer>Made by Dominique Kolbe</footer>
