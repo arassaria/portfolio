@@ -9893,10 +9893,6 @@ h3 {
     border-color: #dee2e6;
   }
 }
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   margin: 0px;
 }
@@ -9910,8 +9906,14 @@ body {
   padding-right: 1rem;
   padding-bottom: 1rem;
   border-radius: 0px;
-  background-color: transparent !important;
-  border: none;
+}
+
+.card.odd {
+  background-color: burlywood;
+}
+
+.card.even {
+  background-color: lightgrey;
 }
 
 .jumbotron {
@@ -9919,7 +9921,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 0rem;
-  text-align: center;
 }
 
 .display-4 {
@@ -9930,7 +9931,6 @@ body {
 .jumbotron-image {
   width: 10rem;
   flex-basis: 10rem;
-  border-radius: 50%;
 }
 
 .lead {
@@ -9952,14 +9952,8 @@ footer {
   align-self: center;
 }
 
-#contact,
-#about_me {
-  background-color: burlywood;
-}
-
 .card.contact {
-  background-color: transparent;
-  border: none;
+  background-color: burlywood;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -10038,7 +10032,7 @@ details > ul {
   padding-top: 1rem;
   padding-left: 1rem;
   padding-bottom: 1rem;
-  margin: auto;
+  margin-right: 0rem;
 }
 
 /*# sourceMappingURL=custom.css.map */
